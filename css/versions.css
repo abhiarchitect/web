@@ -124,6 +124,7 @@ body.building_version .first-section .lead {
 body.building_version .first-section .btn {
     background-color: #000000 !important;
     border: 0 !important;
+    margin-bottom: 20px;
 }
 
 body.building_version .message-box h2 {
@@ -175,4 +176,7 @@ body.building_version .section-title h3 {
 
 body.building_version .contact_form .btn {
     border: 0 !important;
+}
+.container.slider {
+    background-color: rgba(0, 0, 0, 0.6);
 }
