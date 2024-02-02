@@ -955,9 +955,15 @@ li.social-links a {
 }
 .post-media {
     position: relative;
+    overflow: hidden;
 }
 .post-media img {
     width: 100%;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+.post-media img:hover {
+    transform: scale(1.2);
 }
 .playbutton {
     position: absolute;
@@ -1978,4 +1984,11 @@ body.app_version .app_iphone_01 img {
 }
 #footer-widgets .widget.widget_socials {
     margin-top: 25px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex .uppercase {
+    color: #efefef;
 }
